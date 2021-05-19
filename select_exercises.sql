@@ -7,4 +7,5 @@ SELECT record_name FROM albums WHERE artist_name = 'Pink Floyd';
 -- selecting release date of the beatles album
 SELECT release_date FROM albums WHERE record_name = 'Sgt. Pepper''s Lonely Hearts Club Band';
 
--- genre of Nevermind
+-- selecting the genre of record name Nevermind
+
