@@ -3,7 +3,7 @@ USE codeup_test_db;
 
 -- using the INSERT method
 INSERT INTO albums (artist_name, record_name, release_date, record_sales, genre)
-VALUES 'Michael Jackson', 'Thriller', 1982, 47.3,'Pop, Rock, R&B'),
+VALUES ('Michael Jackson', 'Thriller', 1982, 47.3,'Pop, Rock, R&B'),
        ('AC/DC', 'Back in Black', 1980, 26.1, 'Hard rock'),
        ('Pink Floyd', 'The Dark Side of the Moon', 1973, 24.2,'Progressive rock' ),
        ('Meat Loaf', 'Bat Out of Hell', 1977, 21.5, 'Hard rock Progressive rock' ),
@@ -14,10 +14,10 @@ VALUES 'Michael Jackson', 'Thriller', 1982, 47.3,'Pop, Rock, R&B'),
        ('Various artists', 'Grease: The Original Soundtrack from the Motion Picture', 1978, 14.4, 'Soundtrack' ),
        ('Led Zeppelin', 'Led Zeppelin IV', 1971,  29.0, 'Hard rock, Heavy metal, Folk'),
        ('Michael Jackson', 'Bad', 1987, 19.3, 'Pop, Funk, Rock' ),
-       ('Alanis Morissette', 'Jagged Little Pill', 1995, , 24.4, 'Alternative rock'),
-       ('Shania Twain', 'Come On Over', 1997,  29.6, 'Country, Pop'),
-       ('Celine Dion', 'Falling into You', 1996,  20.2, 'Pop, Soft rock')
-       ('The Beatles', 'Sgt. Pepper''s Lonely Hearts Club Band', 1967,13.1, 'Rock'),
+       ('Alanis Morissette', 'Jagged Little Pill', 1995, 24.4, 'Alternative rock'),
+       ('Shania Twain', 'Come On Over', 1997, 29.6, 'Country, Pop'),
+       ('Celine Dion', 'Falling into You', 1996, 20.2, 'Pop, Soft rock');
+       ('The Beatles', 'Sgt. Pepper''s Lonely Hearts Club Band', 1967, 13.1, 'Rock'),
        ('Eagles', 'Hotel California', 1976, 21.5, 'Rock, Soft rock, Folk rock'),
        ('Various artists', 'Dirty Dancing', 1987, 17.9, 'Pop, Rock, R&B'),
        ('Adele', '21', 2011, 25.3, 'Pop, Soul'),
