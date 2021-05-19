@@ -25,7 +25,9 @@ VALUES ('Michael Jackson', 'Thriller', 1982, 47.3,'Pop, Rock, R&B'),
        ('The Beatles', '1', 2000, 22.6, 'Rock'),
        ('Michael Jackson', 'Dangerous', 1991, 16.3, 'Rock, Funk, Pop'),
        ('Madonna', 'The Immaculate Collection', 1990, 19.4, 'Pop, Dance'),
+       ('Nirvana', 'Nevermind', 1991, 16.7, 'Grunge, Alternative Rock'),
        ('The Beatles', 'Abbey Road', 1969, 14.4, 'Rock');
+
 
 SELECT * FROM albums;
 DESCRIBE albums;
