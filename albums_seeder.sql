@@ -16,7 +16,7 @@ VALUES ('Michael Jackson', 'Thriller', 1982, 47.3,'Pop, Rock, R&B'),
        ('Michael Jackson', 'Bad', 1987, 19.3, 'Pop, Funk, Rock' ),
        ('Alanis Morissette', 'Jagged Little Pill', 1995, 24.4, 'Alternative rock'),
        ('Shania Twain', 'Come On Over', 1997, 29.6, 'Country, Pop'),
-       ('Celine Dion', 'Falling into You', 1996, 20.2, 'Pop, Soft rock');
+       ('Celine Dion', 'Falling into You', 1996, 20.2, 'Pop, Soft rock'),
        ('The Beatles', 'Sgt. Pepper''s Lonely Hearts Club Band', 1967, 13.1, 'Rock'),
        ('Eagles', 'Hotel California', 1976, 21.5, 'Rock, Soft rock, Folk rock'),
        ('Various artists', 'Dirty Dancing', 1987, 17.9, 'Pop, Rock, R&B'),
