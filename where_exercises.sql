@@ -15,5 +15,18 @@ USE employees;
 -- PART TWO
 
 -- Update code on line 7 to use OR instead of IN
-SELECT * FROM employees WHERE first_name OR ('Irene', 'Vidya', 'Maya');
+-- SELECT * FROM employees WHERE first_name = 'Irena' OR first_name = 'Vidya' OR first_name = 'Maya';
+
+-- Find employees whose last name start OR ends with 'E'
+-- SELECT * FROM employees WHERE last_name LIKE '%e' OR last_name LIKE 'e%';
+
+-- Find employees whose last name starts AND ends with 'e'
+-- SELECT * FROM employees WHERE last_name LIKE '%e' AND last_name LIKE 'e%';
+
+-- SELECT * FROM employees WHERE last_name LIKE '%q%' NOT last_name LIKE '%qu%';
+
+SELECT * FROM employees WHERE gender = 'm'
+        AND (first_name = 'Irena'
+        OR first_name = 'Vidya'
+        OR first_name = 'Maya');
 
