@@ -26,7 +26,7 @@ WHERE year(hire_date) BETWEEN 1990 AND 1999
 ORDER BY birth_date ASC, hire_date DESC LIMIT 1;
 
 -- Using the datediff() function
-SELECT CONCAT(first_name, ' ', last_name) AS 'Employee Name', DATEDIFF(NOW(), hire_date)
+SELECT CONCAT(first_name, ' ', last_name) AS 'Employee Name', DATEDIFF(NOW(), hire_date) AS 'Number of Days Worked'
 FROM employees
 WHERE year(hire_date) BETWEEN 1990 AND 1999
 AND month(birth_date) = 12
