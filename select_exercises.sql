@@ -18,3 +18,4 @@ USE codeup_test_db;
 
 -- selecting all albums labeled rock
 SELECT * FROM albums WHERE genre = 'Rock';
+

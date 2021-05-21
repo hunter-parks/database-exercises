@@ -18,4 +18,17 @@ AND month(birth_date) = 12
 AND day(birth_date) = 25;
 
 -- Change the code for last question where the first result is the oldest employee who was hired last
+SELECT *
+FROM employees
+WHERE year(hire_date) BETWEEN 1990 AND 1999
+  AND month(birth_date) = 12
+  AND day(birth_date) = 25
+ORDER BY birth_date ASC, hire_date DESC LIMIT 1;
 
+-- Using the datediff() function
+SELECT CONCAT(first_name, ' ', last_name) AS 'Employee Name', DATEDIFF(NOW(), hire_date)
+FROM employees
+WHERE year(hire_date) BETWEEN 1990 AND 1999
+AND month(birth_date) = 12
+AND day(birth_date) = 25
+LIMIT 25;
