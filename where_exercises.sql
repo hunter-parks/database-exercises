@@ -19,7 +19,7 @@ USE employees;
 
 -- find everyone with whose a male
 SELECT * FROM employees WHERE gender = 'm'
-                          AND (first_name = 'Irena'
+        AND (first_name = 'Irena'
         OR first_name = 'Vidya'
         OR first_name = 'Maya');
 
