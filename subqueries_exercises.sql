@@ -29,3 +29,5 @@ WHERE emp_no IN (
     FROM dept_manager
     WHERE to_date > CURDATE()
     ) AND gender = 'F';
+
+
